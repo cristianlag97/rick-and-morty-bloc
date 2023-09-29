@@ -41,7 +41,7 @@ class _CharacterViewState extends State<CharacterView>
                         context.push('/search');
                       },
                       icon: const Icon(Icons.search),
-                      label: const Text('Buscar')),
+                      label: const Text('Search')),
                   ElevatedButton.icon(
                       onPressed: () {
                         showModalBottomSheet(

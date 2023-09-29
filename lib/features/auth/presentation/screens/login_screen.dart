@@ -46,7 +46,7 @@ class _LoginForm extends StatelessWidget {
           const SizedBox(height: 50),
           CustomTextFormField(
             onFieldSubmitted: (_) => _submitEmail(context),
-            label: 'Correo',
+            label: 'Email',
             keyboardType: TextInputType.emailAddress,
             onChanged: context.read<LoginFormBloc>().onEmailChange,
             errorMessage:
@@ -55,7 +55,7 @@ class _LoginForm extends StatelessWidget {
           const SizedBox(height: 30),
           CustomTextFormField(
             focusNode: _passwordFocusNode,
-            label: 'Contraseña',
+            label: 'Password',
             obscureText: true,
             onChanged: context.read<LoginFormBloc>().onPasswordChanged,
             errorMessage:
@@ -66,7 +66,7 @@ class _LoginForm extends StatelessWidget {
               width: double.infinity,
               height: 60,
               child: CustomFilledButton(
-                text: 'Ingresar',
+                text: 'LogIn',
                 buttonColor: Colors.black,
                 onPressed: loginForm.isPosting
                     ? null

@@ -13,7 +13,7 @@ class BottomNavigation extends StatelessWidget {
             context.pop();
             deleteFilter();
           },
-          child: const Text('Quitar filtro')),
+          child: const Text('remove filter')),
     );
   }
 }

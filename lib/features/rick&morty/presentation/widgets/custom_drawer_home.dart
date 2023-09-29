@@ -29,7 +29,7 @@ class _CustomDrawerHomeState extends State<CustomDrawerHome> {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.fromLTRB(20, hasNotch ? 0 : 20, 16, 0),
-            child: Text('Saludos', style: textStyles.titleMedium),
+            child: Text('Greetings', style: textStyles.titleMedium),
           ),
           const Padding(
             padding: EdgeInsets.fromLTRB(28, 16, 28, 10),
@@ -37,7 +37,7 @@ class _CustomDrawerHomeState extends State<CustomDrawerHome> {
           ),
           const Padding(
             padding: EdgeInsets.fromLTRB(28, 10, 16, 10),
-            child: Text('Otras opciones'),
+            child: Text('Other options'),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -46,7 +46,7 @@ class _CustomDrawerHomeState extends State<CustomDrawerHome> {
                   context.read<AuthBloc>().logout();
                   context.read<NavigationBloc>().handleReset();
                 },
-                text: 'Cerrar sesión'),
+                text: 'Logout'),
           ),
         ]);
   }

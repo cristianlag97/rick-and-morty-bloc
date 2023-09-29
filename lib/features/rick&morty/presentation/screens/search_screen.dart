@@ -30,7 +30,7 @@ class _BodySearch extends StatelessWidget {
           child: CustomTextFormField(
             prefixIcon: const Icon(Icons.search),
             onChanged: context.read<SearchBloc>().loadSearchResult,
-            hint: 'Buscar...',
+            hint: 'Search...',
           ),
         ),
         searchState.characters.isNotEmpty
@@ -66,7 +66,7 @@ class _BodySearch extends StatelessWidget {
                         color: colorGray,
                       ),
                       Text(
-                        'No hay characters por mostrar',
+                        'there are no characters to show',
                         style:
                             textStyle.titleMedium!.copyWith(color: colorGray),
                         textAlign: TextAlign.center,
