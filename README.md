@@ -32,7 +32,9 @@ En este proyecto hay:
    <img width="150" src="./assets/images/8.jpeg" alt="image8">
    <br/>
 5. y por último y no menos importante un drawer para poder “cerrar sesión”
+   <br/>
    <img width="150" src="./assets/images/9.jpeg" alt="image9">
+   <br/>
 
 # Importante
 
